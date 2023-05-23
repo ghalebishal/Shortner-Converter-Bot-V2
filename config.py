@@ -7,12 +7,13 @@ load_dotenv()
 
 
 # Mandatory variables for the bot to start
-API_ID = int(os.getenv("API_ID", "Your Api Id"))
-API_HASH = os.environ.get("API_HASH", "Your Api Hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("Owner Id")] if os.environ.get("ADMINS") else []
+API_ID = int(os.getenv("API_ID", "26088361"))
+API_HASH = os.environ.get("API_HASH", "be0dfad718deb2eed2645729c25a8ab0
+")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6257067958:AAFpx_07P6UGUr_MFzxQ3i7eaBpa9SesuP0")
+ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5448463295")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Kajilinks")
 DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
