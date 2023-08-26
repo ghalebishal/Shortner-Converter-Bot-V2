@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(os.getenv("API_ID", "27318489"))
 API_HASH = os.environ.get("API_HASH", "6e87be2c71039c0c6f2077266f9827c2")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6638166308:AAEauhWVObw1mCglDLAFF1PzKC51v2eJdLA")
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5979184565")] if os.environ.get("ADMINS") else []
+ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS", "5979184565").split(",") if i.strip()] 
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://kajitest:kajitest@cluster0.l308bgi.mongodb.net/?retryWrites=true&w=majority") 
