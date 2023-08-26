@@ -149,7 +149,7 @@ This Text will be added to the **bottom** of every message **caption** or text
 For adding **line break** use \n
 To Remove Footer Text: `/footer remove`"""
 
-USERNAME_TEXT = """**Hello Harman, I am shortnerfly.com, Bulk Link Converter Bot From Linked shortnerfly.com Account,**
+USERNAME_TEXT = """**Hello {}, I am kajilinks.xyz, Bulk Link Converter Bot From Linked kajilinks Account,**
 
 **🌟 Type** /channel (channel link or username)
 
